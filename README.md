@@ -1,2 +1,2 @@
-As meninas superpoderosas
+As Meninas Superpoderosas
 
