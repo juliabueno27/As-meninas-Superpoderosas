@@ -25,3 +25,16 @@ img {
     max-width: 90%;
     border-radius: 10px;
 }
+
+nav {
+    margin: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #e75480;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px;
+}
