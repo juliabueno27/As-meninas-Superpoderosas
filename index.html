@@ -1,1 +1,86 @@
 
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>As Meninas Superpoderosas</title>
+
+    <style>
+        body {
+            background-color: #fce4ec;
+            font-family: Arial;
+            text-align: center;
+        }
+
+        header {
+            background-color: #f48fb1;
+            padding: 20px;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        img {
+            width: 250px;
+            margin: 10px;
+        }
+
+        button {
+            background-color: #f48fb1;
+            color: white;
+            padding: 10px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>As Meninas Superpoderosas</h1>
+    <p>Florzinha, Lindinha e Docinho</p>
+</header>
+
+<main>
+
+<img src="file_000000008e50820ebe89ee5de0e9413c.png">
+
+    <h2>Sobre as Meninas Superpoderosas</h2>
+  
+<p>Florzinha, Lindinha e Docinho são um trio de super-heroínas criadas pelo Professor Utônio. Em um experimento, ele misturou açúcar, tempero e tudo o que há de bom, porém acabou derrubando o Elemento X na mistura. A fórmula explodiu e deu vida a três irmãs superpoderosas.</p>
+
+    <h2>Vídeo</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/01vDOWGzzfg" allowfullscreen></iframe>
+
+    <h2>Florzinha</h2>
+<img src="IMG_20260830_082256.jpg">
+<p>Florzinha é a líder do grupo. Ela é responsável, inteligente, racional, organizada e perfeccionista. Tem sempre o instinto protetor para proteger, cuidar e ajudar as suas irmãs a proteger Townsville.</p>
+
+    <h2>Lindinha</h2>
+<img src="IMG_20260830_082106.jpg">
+<p>Lindinha é a mais doce e carinhosa das irmãs. Ela é alegre, sensível e adora ajudar os outros. Apesar de parecer delicada, também é uma super-heroína corajosa.</p>
+
+    <h2>Docinho</h2>
+<img src="IMG_20260830_082045.jpg">
+<p>Docinho é a mais forte e corajosa das irmãs. Ela é determinada, divertida e não tem medo de enfrentar os vilões. Está sempre pronta para proteger suas irmãs e Townsville.</p>
+
+<button onclick="curtir()">❤️ Curtir <span id="numero">0</span></button>
+
+</main>
+
+    <script>
+let numero = 0;
+function curtir() {
+    numero++;
+    document.getElementById("numero").textContent = numero;
+}
+</script>
+
+</body>
+</html>
